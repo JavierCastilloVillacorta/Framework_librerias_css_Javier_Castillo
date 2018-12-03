@@ -1,0 +1,38 @@
+body{
+  background: url(../img/fondo_body.jpeg);
+}
+
+.fondo-pagina{
+  background: rgba(132,182,234,0.5);
+}
+
+.header-cocina{
+border-right: 1px solid #fff;
+}
+
+.color{
+  background: red;
+}
+
+.color1{
+  background: green;
+}
+
+.vertical li:hover{
+  background: #2ba6cb;
+}
+
+.img-favoritos{
+  width: 100%;
+}
+
+.inline-list li{
+  list-style: none;
+  margin: 5px 0;
+  padding: 0 5px;
+  color: #fff;
+}
+
+textarea{
+  resize: none;
+}
