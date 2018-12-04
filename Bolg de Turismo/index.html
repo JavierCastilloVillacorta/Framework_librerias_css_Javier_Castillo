@@ -8,11 +8,149 @@
     <link rel="stylesheet" href="css/estilos.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
-    <title></title>
+    <title>Turismo</title>
   </head>
   <body>
 
-    
+    <div class="row">
+      <div class="col s12 grey lighten-2 barra-superior">
+        <div class="col s4 m2 l3">
+          <div class="col s11 offset-s1 cont-logo">
+            <img src="img/logo.png" class="responsive-img logo-img" alt="">
+          </div>
+        </div>
+        <div class="col s8  m10 l9">
+            <nav class="grey lighten-2 z-depth-0">
+              <div class="nav-wrapper">
+                <ul class="right">
+                  <li><a class="waves-effect waves-teal btn blue darken-2 botones-menu"> <i class="material-icons left">home</i> Inicio</a></li>
+                  <li><a class="waves-effect waves-teal btn blue darken-2 botones-menu"> <i class="material-icons left">location_on</i> Estuve en</a></li>
+                  <li><a class="waves-effect waves-teal btn blue darken-2 botones-menu"> <i class="material-icons left">star</i> Mejores Viajes</a></li>
+                  <li><a class="waves-effect waves-teal btn blue darken-2 botones-menu"> <i class="material-icons left">note</i> Recomendaciones</a></li>
+                </ul>
+              </div>
+            </nav>
+            <div class="col s12 m11 pull-s5">
+              <h3 class="flow-text"><strong>Creando mi propio camino</strong> </h3>
+            </div>
+        </div>
+      </div>
+
+      <div class="col s12 cont-cuerpo">
+          <div class="col m1 hide-on-med-and-down">
+            <ul class="collection">
+              <li class="collection-item avatar">
+                <img src="img/fa.png" alt="" class="circle img-redes">
+              </li>
+              <li class="collection-item avatar">
+                <img src="img/im.png" alt="" class="circle img-redes">
+              </li>
+              <li class="collection-item avatar">
+                <img src="img/tt.png" alt="" class="circle img-redes">
+              </li>
+              <li class="collection-item avatar">
+                <img src="img/yt.png" alt="" class="circle img-redes">
+              </li>
+            </ul>
+          </div>
+          <div class="col s12 m11">
+            <div class="row">
+              <div class="col s12 m4 l4 z-depth-2 cont-img-1">
+                <div class="col s12">
+                  <img src="img/turismo-1.jpg" class="responsive-img" alt="">
+                </div>
+                <div class="col s12">
+                  <img src="img/turismo-2.jpg" class="responsive-img" alt="">
+                </div>
+              </div>
+              <div class="col s12 m4 l4 z-depth-2 cont-img-1">
+                <div class="col s12">
+                  <img src="img/turismo-5.jpg" class="responsive-img" alt="">
+                </div>
+              </div>
+              <div class="col s12 m4 l4 z-depth-2 cont-img-1">
+                <div class="col s12">
+                  <img src="img/turismo-3.jpeg" class="responsive-img" alt="">
+                </div>
+                <div class="col s12">
+                  <img src="img/turismo-4.jpg" class="responsive-img" alt="">
+                </div>
+                <div class="col s12">
+                  <img src="img/turismo-6.jpg" class="responsive-img" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col s12">
+        <div class="col s12 m8">
+          <div class="col s12 grey lighten-2">
+            <div class="col s12">
+              <div class="col s12 m4 comt-img-publicacion">
+                <img src="img/post-img.jpg" class="responsive-img" alt="">
+              </div>
+             <div class="col s 12 m8">
+               <h4>Aventura, historia y hospitalidad</h4>
+               <h6>Fecha 30 de Noviembre 2018</h6>
+               <p>
+                 El Perú es la tierra de los antiguos Incas, una increíble civilización que supo dominar su agreste geografía y convivir en armonía con los ríos, el sol, la lluvia, el mar y la Amazonía, las montañas y el frío seco de los Andes, adecuándose a su entorno y sobreviviendo gracias a los beneficiosos frutos de la Pachamama.
+               </p>
+             </div>
+            </div>
+            <div class="col s12">
+              <p>
+                Parte de esa sociedad milenaria vive hoy en cada pueblo y se descubre en las costumbres de la gente. Llegar al Perú es viajar a través del tiempo y reencontrar la excitante vida de los Incas, los Chancas, los Chachapoyas, los Mochicas y los Wari, así como sus grandes obras arquitectónicas, su arte, sus fiestas, las raíces de su fortaleza social y la energía de sus hombres.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 blue darken-3 cuerpo-comentario">
+            <h6 class="white-text">Deja tu Comentario</h6>
+            <form class="col s12" name="Formulario-Comentario">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="Nombre">Nombre</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">email</i>
+                  <input id="icon_telephone" type="email" class="validate">
+                  <label for="Correo">Correo</label>
+                </div>
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <label for="comentario">Comentario</label>
+                </div>
+                <div class="col s12 right">
+                  <ul class="right">
+                    <li><a class="waves-effect waves-teal btn blue darken-2">Enviar</a></li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col s12 m4 grey lighten-2">
+          <div class="row">
+            <div class="col s12 center">
+              <img src="img/autor-img.png" class="circle responsive-img img-autor" alt="">
+              <h5>Perfil del autor</h5>
+            </div>
+            <div class="col s12 center cont-perfil">
+              <p>Nombre: Javier Castillo Villacorta</p>
+              <p>E-mail: jcastillo.jav@hotmail.com</p>
+              <p>Telefono: 964122643</p>
+              <p>Se creo este post para fomentar el
+              tursmo en el Perú, este es un pais con gran cultura donde puedes pasar
+              momentos inolvidables</p>
+            </div>
+          </div>
+       </div>
+    </div>
+  </div>
+
 
   </body>
 </html>
